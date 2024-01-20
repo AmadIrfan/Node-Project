@@ -1,0 +1,29 @@
+{
+	"name": "atm",
+	"version": "1.0.0",
+	"description": "this is ATM card data",
+	"main": "index.js",
+	"scripts": {
+		"start": "Node index.js",
+		"serve": "nodemon index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"ATM",
+		"Card",
+		"Project"
+	],
+	"author": "Amad Irfan",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.20.2",
+		"cors": "^2.8.5",
+		"dotenv": "^16.3.1",
+		"express": "^4.18.2",
+		"mongoose": "^7.6.2",
+		"morgan": "^1.10.0"
+	},
+	"devDependencies": {
+		"nodemon": "^3.0.1"
+	}
+}
