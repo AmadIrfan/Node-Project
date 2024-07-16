@@ -1,0 +1,94 @@
+{
+    "registerStudents": {
+        "createStudents": {
+            "data": {
+                "name": "Amad Irfan",
+                "reg_no": "2021-CS-25",
+                "email": "amadirfan443@gmail.com",
+                "message": "Students registered"
+            }
+        },
+        "getStudents": {
+            "data": {
+                "id": "25",
+                "reg_no": "2021-CS-25",
+                "email": "amadirfan443@gmail.com"
+            }
+        },
+        "updateStudent": {
+            "data": {
+                "name": "Amad Irfan",
+                "reg_no": "2021-CS-25",
+                "email": "amadirfan443@gmail.com",
+                "father_name": "Irfan Mahmood",
+                "message": "Students updated"
+            }
+        },
+        "deleteStudent": {
+            "data": {
+                "id": "25",
+                "reg_no": "2021-CS-25",
+                "message": "Students deleted"
+            }
+        },
+        "studentCourses": {
+            "data": {
+                "id": "25",
+                "reg_no": "2021-CS-25",
+                "courses": [
+                    "cs102",
+                    "cs101",
+                    "cs103",
+                    "cs104"
+                ]
+            }
+        }
+    },
+    "courseData/cs102": {
+        "data": {
+            "id": "cs102",
+            "name": "course 102",
+            "description": "this is course description",
+            "seat_limits": "50"
+        }
+    },
+    "registerCourse": {
+        "data": {
+            "id": "cs102",
+            "name": "course 102",
+            "description": "this is course description",
+            "seat_limits": "50"
+        }
+    },
+    "deleteSingleCourse/cs102": {
+        "data": {
+            "id": "cs102",
+            "name": "course 102",
+            "message": "course deleted"
+        }
+    },
+    "getAllCourse": {
+        "data": {
+            "courses": [
+                "cs102",
+                "cs101",
+                "cs103",
+                "cs104"
+            ]
+        }
+    },
+    "getCourseStudents/cs102": {
+        "data": {
+            "students": [
+                {
+                    "id": "25",
+                    "name": "Amad Irfan"
+                },
+                {
+                    "id": "27",
+                    "name": "Amna Zafar"
+                }
+            ]
+        }
+    }
+}

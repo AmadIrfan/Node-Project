@@ -1,0 +1,86 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  /* Signup page styles */
+  .signup-form {
+    margin-top: 50px;
+  }
+  
+  .signup-form label,
+  .signup-form input {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .signup-form input[type="text"],
+  .signup-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .signup-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Login page styles */
+  .login-form {
+    margin-top: 50px;
+  }
+  
+  .login-form label,
+  .login-form input {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dashboard page styles */
+  .dashboard {
+    margin-top: 50px;
+  }
+  
+  .dashboard h2 {
+    margin-bottom: 20px;
+  }
+  
+  .dashboard p {
+    margin-bottom: 10px;
+  }
+  
